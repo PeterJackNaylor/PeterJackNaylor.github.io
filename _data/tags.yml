@@ -14,14 +14,14 @@
 
 Research:
   name: Research
-  image: /hydejack/public/img/jekyll.jpg
+  image: /PeterJackNaylor.github.io/public/img/jekyll.jpg
   color: '#949667'
   description: >
     Here is a post concerning my research activities. My area of research are statistics are machine learning but specificly image processing algorithms.
 
 Teaching:
   name: Teaching
-  image: /hydejack/public/img/jekyll.jpg
+  image: /PeterJackNaylor.github.io/public/img/jekyll.jpg
   color: '#949667'
   description: >
     I have taught.
@@ -29,7 +29,7 @@ Teaching:
 
 Resume:
   name: Resume
-  image: /hydejack/public/img/jekyll.jpg
+  image: /PeterJackNaylor.github.io/public/img/jekyll.jpg
   color: '#949667'
   description: >
     Here is my full resume.
@@ -37,7 +37,7 @@ Resume:
 
 Publications:
   name: Publications
-  image: /hydejack/public/img/jekyll.jpg
+  image: /PeterJackNaylor.github.io/public/img/jekyll.jpg
   color: '#949667'
   description: >
     Here is a list of all my publications.
