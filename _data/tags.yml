@@ -1,0 +1,45 @@
+# Add an entry, where the key represents a slug.
+# Provide at least a `name` value and optionally `image`, `color` and `description`.
+# Markdown is enabled for `description`, however don't use more than one paragraph (enforced by `>`)
+#
+# Example:
+#
+# ~~~
+# mytag:
+#   name: My Tag
+#   description: >
+#     *My Tag* is an example of how to define a custom tag.
+# ~~~
+
+
+Research:
+  name: Research
+  image: /hydejack/public/img/jekyll.jpg
+  color: '#949667'
+  description: >
+    Here is a post concerning my research activities. My area of research are statistics are machine learning but specificly image processing algorithms.
+
+Teaching:
+  name: Teaching
+  image: /hydejack/public/img/jekyll.jpg
+  color: '#949667'
+  description: >
+    I have taught.
+
+
+Resume:
+  name: Resume
+  image: /hydejack/public/img/jekyll.jpg
+  color: '#949667'
+  description: >
+    Here is my full resume.
+
+
+Publications:
+  name: Publications
+  image: /hydejack/public/img/jekyll.jpg
+  color: '#949667'
+  description: >
+    Here is a list of all my publications.
+
+

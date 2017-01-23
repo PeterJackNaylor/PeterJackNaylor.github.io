@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Peter Naylor</title>
+ <link href="http://qwtel.com/hydejack/atom.xml" rel="self"/>
+ <link href="http://qwtel.com/hydejack/"/>
+ <updated>2017-01-23T17:40:44+01:00</updated>
+ <id>http://qwtel.com/hydejack</id>
+ <author>
+   <name>Peter Naylor</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Isbi 2017</title>
+   <link href="http://qwtel.com/hydejack/2017/01/15/Isbi/"/>
+   <updated>2017-01-15T00:00:00+01:00</updated>
+   <id>http://qwtel.com/hydejack/2017/01/15/Isbi</id>
+   <content type="html">&lt;h2 id=&quot;paper&quot;&gt;Paper&lt;/h2&gt;
+&lt;p&gt;The Paper Nuclei Segmentation in Histopathology Images Using Deep Neural Networks by &lt;em&gt;Peter Naylor, Thomas Walter, Fabien Reyal and Marick Laé&lt;/em&gt; has been accepeted in ISBI 2017.&lt;/p&gt;
+
+&lt;h2 id=&quot;data-freely-available&quot;&gt;Data freely available&lt;/h2&gt;
+&lt;p&gt;The data made freely public as mentionned in the paper can be found &lt;a href=&quot;http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/BNS.zip&quot;&gt;here&lt;/a&gt;. The files come as a zip file and has many subdirectories. Patients histopathological data can be found under “Slide_id” and the ground truth can be found under “GT_id” where id is the patients id. Histopathology data is standart RGB files, however the ground truth is under an itk-snap format which is nii.gz.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bio-info, SVM and Graph-kernels</title>
+   <link href="http://qwtel.com/hydejack/2016/05/26/Bio-info-SVM-and-Graph-kernels/"/>
+   <updated>2016-05-26T00:00:00+02:00</updated>
+   <id>http://qwtel.com/hydejack/2016/05/26/Bio-info-SVM-and-Graph-kernels</id>
+   <content type="html">&lt;p&gt;You can find all the desired information on my colleagues web pages: &lt;a href=&quot;http://members.cbio.mines-paristech.fr/~bplaye/teaching/2016/bioinfo-svm-graph-kernels.html&quot;&gt;Benoit Playe&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

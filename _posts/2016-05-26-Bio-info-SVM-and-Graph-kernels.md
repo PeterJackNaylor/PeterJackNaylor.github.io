@@ -1,0 +1,7 @@
+---
+layout: post
+title: 'Bio-info, SVM and Graph-kernels'
+tags: [Teaching]
+---
+
+You can find all the desired information on my colleagues web pages: [Benoit Playe](http://members.cbio.mines-paristech.fr/~bplaye/teaching/2016/bioinfo-svm-graph-kernels.html)
