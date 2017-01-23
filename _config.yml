@@ -7,11 +7,11 @@ gems:
 permalink:           pretty
 
 # Setup
-url:                 http://qwtel.com
+url:                 ''
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl:             /hydejack
+baseurl:             /PeterJackNaylor.github.io
 
 title:               Peter Naylor
 
@@ -27,7 +27,7 @@ description:         >
 sidebar_tags:        [Teaching, Publications]
 
 # Fallback image and color if not overwritten for tag or post
-image:               /hydejack/public/img/nap.jpg
+image:               /PeterJackNaylor.github.io/public/img/nap.jpg
 color:               '#A85641'
 
 # Fonts
@@ -40,8 +40,8 @@ author:
   name:              'Peter Naylor'
 
   # This photo will be used in the about section
-  photo:             /hydejack/public/img/PJ.jpg
-  photo2x:           /hydejack/public/img/PJ.jpg
+  photo:             /PeterJackNaylor.github.io/public/img/PJ.jpg
+  photo2x:           /PeterJackNaylor.github.io/public/img/PJ.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
