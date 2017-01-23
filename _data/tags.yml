@@ -12,16 +12,16 @@
 # ~~~
 
 
-Research:
-  name: Research
-  image: /PeterJackNaylor.github.io/public/img/jekyll.jpg
+ResearchActivity:
+  name: ResearchActivity
+  image: /PeterJackNaylor.github.io/public/img/RickandMortyPortal.jpg
   color: '#949667'
   description: >
     Here is a post concerning my research activities. My area of research are statistics are machine learning but specificly image processing algorithms.
 
 Teaching:
   name: Teaching
-  image: /PeterJackNaylor.github.io/public/img/jekyll.jpg
+  image: /PeterJackNaylor.github.io/public/img/RickandMortyPortal.jpg
   color: '#949667'
   description: >
     Here are the supplementary material with respect to the courses.
@@ -29,7 +29,7 @@ Teaching:
 
 Resume:
   name: Resume
-  image: /PeterJackNaylor.github.io/public/img/jekyll.jpg
+  image: /PeterJackNaylor.github.io/public/img/RickandMortyPortal.jpg
   color: '#949667'
   description: >
     Here is my full resume.
@@ -37,7 +37,7 @@ Resume:
 
 Publications:
   name: Publications
-  image: /PeterJackNaylor.github.io/public/img/jekyll.jpg
+  image: /PeterJackNaylor.github.io/public/img/RickandMortyPortal.jpg
   color: '#949667'
   description: >
     Here is a list of all my publications.
