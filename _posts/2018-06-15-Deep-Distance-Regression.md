@@ -18,8 +18,10 @@ We focus ourself on the problem of touching nuclei in histopathology images, i.e
 
 
 ![Figure 1: Distance Regression Estimation](../Images/CategorialDistance.png){:class="img-responsive"}
-$\mathcal{B}$ is the space of binary files and $\mathcal{B}_D$ is the distance transform of the previous space.
+B is the space of binary files and Bd is the distance transform of the previous space.
 ![Figure 2: Comparaison of different methods](../Images/Samples.png){:class="img-responsive"}
 U-Net refers to the paper: Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." International Conference on Medical image computing and computer-assisted intervention. Springer, Cham, 2015.
+
 FCN refers to the paper: Long, Jonathan, Evan Shelhamer, and Trevor Darrell. "Fully convolutional networks for semantic segmentation." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
+
 RCNN refers to the paper: He, Kaiming, et al. "Mask r-cnn." Computer Vision (ICCV), 2017 IEEE International Conference on. IEEE, 2017.
