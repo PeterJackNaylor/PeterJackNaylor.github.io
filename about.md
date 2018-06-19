@@ -10,4 +10,4 @@ title: About
 {% include about-short.html author=site.author %}
 
 
-I am very happy to collaborate in any project related to machine learning, deep learning applied to bio-imaging data. Don't hesitate to contact me at: peter.naylor@mines-paristech.fr.
+I am very happy to collaborate in any bio-imaging project related (or using) to machine learning and deep learning. Don't hesitate to contact me at: firstname.lastname@mines-paristech.fr.
