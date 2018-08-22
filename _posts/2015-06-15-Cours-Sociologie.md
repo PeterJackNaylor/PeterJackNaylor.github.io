@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Cours statistique'
+title: 'Introduction to statistics'
 tags: [Teaching]
 ---
 
