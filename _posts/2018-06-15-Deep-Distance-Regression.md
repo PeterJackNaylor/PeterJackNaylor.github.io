@@ -22,10 +22,10 @@ We focused on the problem of touching nuclei in histopathology images, i.e. inst
 
 B is the space of binary files and Bd is the distance transform of the previous space.
 ![](../Images/Samples.png){:class="img-responsive"}
-**Figure 2**: *Comparaison of different methods*
+**Figure 2**: *Comparaison of different methods, some examples*
 
 ![](../Images/BoxPlot.png){:class="img-responsive"}
-**Figure 3**: *Comparaison of different methods*
+**Figure 3**: *Comparaison of different methods, boxplots*
 
 **U-Net**: refers to the method in the paper: Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." *International Conference on Medical image computing and computer-assisted intervention. Springer, Cham, 2015*.
 
