@@ -23,8 +23,10 @@ B is the space of binary files and Bd is the distance transform of the previous 
 ![Figure 2: Comparaison of different methods](../Images/Samples.png){:class="img-responsive"}
 ![Figure 3: Comparaison of different methods](../Images/BoxPlot.png){:class="img-responsive"}
 
-U-Net refers to the paper: Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." International Conference on Medical image computing and computer-assisted intervention. Springer, Cham, 2015.
+**U-Net**: refers to the method in the paper: Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." *International Conference on Medical image computing and computer-assisted intervention. Springer, Cham, 2015*.
 
-FCN refers to the paper: Long, Jonathan, Evan Shelhamer, and Trevor Darrell. "Fully convolutional networks for semantic segmentation." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
+**FCN**: refers to the method in the paper: Long, Jonathan, Evan Shelhamer, and Trevor Darrell. "Fully convolutional networks for semantic segmentation." *Proceedings of the IEEE conference on computer vision and pattern recognition. 2015*.
 
-Mask r-cnn refers to the paper: He, Kaiming, et al. "Mask r-cnn." Computer Vision (ICCV), 2017 IEEE International Conference on. IEEE, 2017.
+**Mask r-cnn**: refers to the method in the paper: He, Kaiming, et al. "Mask r-cnn." *Computer Vision (ICCV), 2017 IEEE International Conference on. IEEE, 2017*.
+
+**[32]**: refers to the method in the paper: N. Kumar, R. Verma, S. Sharma, S. Bhargava et al. "A Dataset and a Technique for Generalized Nuclear Segmentation for Computational Pathology,", *IEEE Transactions on Medical Imaging, 2017*.
