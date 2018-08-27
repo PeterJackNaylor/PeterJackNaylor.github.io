@@ -18,7 +18,7 @@ We focused on the problem of touching nuclei in histopathology images, i.e. inst
 
 
 ![](../Images/CategorialDistance.png){:class="img-responsive"}
--> **Figure 1**: *Distance Regression Estimation* <-
+**Figure 1**: *Distance Regression Estimation*  {: style="color:gray; font-size: 80%; text-align: center;"}
 B is the space of binary files and Bd is the distance transform of the previous space.
 ![](../Images/Samples.png){:class="img-responsive"}
 -> **Figure 2**: *Comparaison of different methods* <-
