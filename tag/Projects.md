@@ -4,7 +4,7 @@ tag: Projects
 permalink: /tag/Projects/
 title: Projects
 description: >
-   Here are different projects I have contributed to.
+   Here are different projects I have contributed to:
 ---
 
 
