@@ -24,7 +24,7 @@
   {% endif %}
 
   {% if platform == "google" %}
-    {% assign url = "https://plus.google.com/" | append: username %}
+    {% assign url = "https://scholar.google.com/citations?user=" | append: username %}
     {% include social-list-item.html platform=platform url=url %}
   {% endif %}
 
@@ -177,5 +177,11 @@
     {% assign url = "https://vk.com/" | append: username %}
     {% include social-list-item.html platform=platform url=url %}
   {% endif %}
+
+  {% if platform == "researchgate" %}
+    {% assign url = "https://www.researchgate.net/profile/" | append: username %}
+    {% include social-list-item.html platform=platform url=url %}
+  {% endif %}
+
 {% endfor %}
 </ul>
