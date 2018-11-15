@@ -7,7 +7,7 @@ tags: [Publications]
 ## Paper
 The paper 'Segmentation of Nuclei in Histopathology Images by deep regression of the distance map' by *Peter Naylor, Thomas Walter, Fabien Reyal and Marick Laé* has been published in *IEEE transactions on medical imaging*, 2018.
 
-## Data publicaly available
+## Data publicly available
 The data used for the study can be found [here](https://zenodo.org/record/1175282#.WyP61xy-l5E). 
 The code can be found [here](https://github.com/PeterJackNaylor/DRFNS).
 The results involving the comparaison of the different methods can be found [here](https://cloud.mines-paristech.fr/index.php/s/OxbkrVqkvtFGDyR).

@@ -4,7 +4,7 @@ tag: Talks
 permalink: /tag/Talks/
 title: Given talks and posters
 ---
-(the material are not online yet)
+
 Non exhaustive list of given talks and posters: 
 - Teaching assistant for the *In-depth Tutorial with Pratical Session* at DS3 [Data Science Summer School](http://www.ds3-datascience-polytechnique.fr), August 2018: [slides](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/PresentationDS3_2018.pdf) [notebook](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/DemoSegmentationNet.html).
 - Invited speaker at the [Young Statisticians and Probabilists](https://www.sfds.asso.fr/fr/jeunes_statisticiens/manifestations/journees_ysp/564-accueil_ysp/) in Paris for the 2018 session in January: [slides](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/DeepNeuralNetworksForNucleiSegmentationIntro.pdf).
