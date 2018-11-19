@@ -10,7 +10,7 @@ The paper 'Segmentation of Nuclei in Histopathology Images by deep regression of
 ## Data publicly available
 The data used for the study can be found [here](https://zenodo.org/record/1175282#.WyP61xy-l5E). 
 The code can be found [here](https://github.com/PeterJackNaylor/DRFNS).
-The results involving the comparaison of the different methods can be found [here](https://cloud.mines-paristech.fr/index.php/s/OxbkrVqkvtFGDyR).
+The results involving the comparaison of the different methods can be found [here](https://cloud.mines-paristech.fr/index.php/s/6JakOTrUdwj6uoe).
 
 ## Summary of the paper
 We focused on the problem of touching nuclei in histopathology images, i.e. instance segmentation applied to nuclei. We transform the standard classification problem into a regression problem. In other words, instead of predicting categorial variables we try to infer the distance between a given pixel and it's distance to the border, see figure 1. To recover the segmentation we apply a post-processing scheme that goes as follows: we join two maximum a posteriori of the distance map if and only if we can find a path that does not decrease of a certain size between them. This type of post-processing is ideally suited for the previous task. We believe that formulating the problem into a distance regression problem helps the model learn the concept of a cell better. Indead, the main difference with the standard classification arises in areas where the model is uncertain and will try to maximise per pixel probabilities. This situation does not arise with the distance regression and therefor creates nice and smooth segmentation results as one can see in figure 2 and 3. 
