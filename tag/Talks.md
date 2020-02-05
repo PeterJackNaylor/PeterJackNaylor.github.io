@@ -6,6 +6,10 @@ title: Given talks and posters
 ---
 
 Non exhaustive list of given talks and posters: 
+- Introduction to machine learning and image analysis, presentation to high school students at Lycée Les Feuillades, during *la semaine de la science*, presentation given in english with [slides](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/NaylorP_Montpellier_presentation.pdf) in french.
+- PhD defence, [slides](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/PNaylor_defence.pdf)
+- Invited speaker at an internal workshop on Deep learning at the Center of Mathematical Morphology lab, June 2019: slides. [slides](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/fontainebleau_DL_workshop_presentation.pdf)
+- Conference poster at *International Symposium on Biomedical Imaging (ISBI’19), Venice, Italy*, by Peter Naylor, Joseph Boyd, Marick Laé, Fabien Reyal and Thomas Walter, April 2019: [poster](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/isbi2019_poster.pdf), associated [slides](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/isbi2019_presentation.pdf)
 - Teaching assistant for the *In-depth Tutorial with Pratical Session* at DS3 [Data Science Summer School](http://www.ds3-datascience-polytechnique.fr), August 2018: [slides](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/PresentationDS3_2018.pdf) [notebook](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/DemoSegmentationNet.html). General talk on neural network methods for segmentation.
 - Invited speaker at the [Young Statisticians and Probabilists](https://www.sfds.asso.fr/fr/jeunes_statisticiens/manifestations/journees_ysp/564-accueil_ysp/) in Paris for the 2018 session in January: [slides](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/DeepNeuralNetworksForNucleiSegmentationIntro.pdf). General talk on the application of neural network for the segmentation of nuclei.
 - Best poster award at DS3 [Data Science Summer School](http://www.ds3-datascience-polytechnique.fr), August 2017: [poster](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/Poster_DS3_2017.pdf).

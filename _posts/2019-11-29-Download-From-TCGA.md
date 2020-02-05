@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Downloading histopathology data from the TCGA'
-tags: [Teaching]
+tags: [ExtraMaterial]
 ---
 
 ## TCGA 
