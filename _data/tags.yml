@@ -42,4 +42,11 @@ Publications:
   description: >
     Here is a list of all my publications.
 
+ExtraMaterial:
+  name: Extra material
+  image: /PeterJackNaylor.github.io/public/img/NightAndDay2.jpg
+  color: '#949667'
+  description: >
+    Here is a list of extra materials:
+
 
