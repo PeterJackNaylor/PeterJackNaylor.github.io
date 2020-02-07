@@ -24,7 +24,7 @@ description:         >
   PhD Student at Mines Paristech and Institut Curie, Paris, France.
 
 # The tags listed as entries in the sidebar
-sidebar_tags:        [Teaching, Publications]
+sidebar_tags:        [Teaching, Publications, ExtraMaterial]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /PeterJackNaylor.github.io/public/img/NightAndDay2.jpg
