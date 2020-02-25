@@ -1,8 +1,8 @@
 ---
 layout: page
-tag: Projects
-permalink: /tag/Projects/
-title: Projects
+tag: GitHubRepositories
+permalink: /tag/GitHubRepositories/
+title: GitHub Repositories
 description: >
    Here are different projects I have contributed to:
 ---
