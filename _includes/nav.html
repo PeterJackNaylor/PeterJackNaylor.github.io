@@ -2,7 +2,7 @@
   {% for tag_key in site.sidebar_tags %}
     {% assign tag = site.data.tags[tag_key] %}
     <li>
-      <a class="sidebar-nav-item {% if page.tag == tag_key %}active{% endif %}" href="{{ site.baseurl }}/tag/{{ tag_key }}/">{{ tag.name }}</a>
+      <a class="sidebar-nav-item {% if page.tag == tag_key %}active{% endif %}" href="{{ site.baseurl }}/tag/{{ tag_key }}/">{{ tag.name }} and {{ site.baseurl }}</a>
     </li>
   {% endfor %}
 
@@ -16,7 +16,7 @@
     {% if node.title != null %}
       {% if node.layout == "page" %}
       <li>
-        <a class="sidebar-nav-item {% if page.url == node.url %}active{% endif %}" href="{{ node.url | prepend:site.baseurl }}">{{ node.title }}</a>
+        <a class="sidebar-nav-item {% if page.url == node.url %}active{% endif %}" href="{{ node.url | prepend:site.baseurl }}">{{ node.title }} et {{ node.url }}</a>
       </li>
       {% endif %}
     {% endif %}

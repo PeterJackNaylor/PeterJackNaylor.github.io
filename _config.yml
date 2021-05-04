@@ -1,5 +1,5 @@
 # Dependencies
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
@@ -12,6 +12,7 @@ url:                 ''
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
 baseurl:             '/PeterJackNaylor.github.io'
+
 
 title:               Peter Naylor
 
