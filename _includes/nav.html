@@ -2,7 +2,12 @@
   {% for tag_key in site.sidebar_tags %}
     {% assign tag = site.data.tags[tag_key] %}
     <li>
-      <a class="sidebar-nav-item {% if page.tag == tag_key %}active{% endif %}" href="{{ site.baseurl }}/tag/{{ tag_key }}/">{{ tag.name }} and {{ site.baseurl }}</a>
+      {% if site.url contains 'localhost' %}
+        {% assign var = site.baseurl %}
+      {% else %}
+        {% assign var = "" %}
+      {% endif %}
+      <a class="sidebar-nav-item {% if page.tag == tag_key %}active{% endif %}" href="{{var}}/tag/{{tag_key}}/">{{ tag.name }}</a>
     </li>
   {% endfor %}
 
@@ -15,8 +20,13 @@
   {% for node in pages_list %}
     {% if node.title != null %}
       {% if node.layout == "page" %}
+        {% if site.url contains 'localhost' %}
+          {% assign var = site.baseurl %}
+        {% else %}
+          {% assign var = "" %}
+      {% endif %}
       <li>
-        <a class="sidebar-nav-item {% if page.url == node.url %}active{% endif %}" href="{{ node.url | prepend:site.baseurl }}">{{ node.title }} et {{ node.url }}</a>
+        <a class="sidebar-nav-item {% if page.url == node.url %}active{% endif %}" href="{{ node.url | prepend:var }}">{{ node.title }}</a>
       </li>
       {% endif %}
     {% endif %}
