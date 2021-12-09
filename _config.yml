@@ -39,8 +39,8 @@ keywords:              [Peter Naylor, machine learning, deep-learning, histopath
 logo:                  /assets/img/website/me_sq.jpg
 
 
-favicon: /assets/icons/favicon.ico
-apple_touch_icon: /assets/icons/apple-touch-icon.png
+favicon: /assets/favicon/favicon.ico
+apple_touch_icon: /assets/favicon/apple-touch-icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
