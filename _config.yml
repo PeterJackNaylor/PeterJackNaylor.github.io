@@ -38,6 +38,10 @@ keywords:              [Peter Naylor, machine learning, deep-learning, histopath
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/imgs/website/me_sq.jpg
 
+
+favicon: /assets/favicon/favicon.ico
+apple_touch_icon: /assets/favicon/apple-touch-icon.png
+
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
@@ -50,7 +54,7 @@ author:
 menu:
   - title:             Random blog posts
     url:               /blog/
-  - title:             Teaching, Given Talks and Posters
+  - title:             Given Talks, Posters and Teaching Material
     url:               /talks/
   - title:             Publications
     url:               /publications/
