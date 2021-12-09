@@ -36,7 +36,7 @@ keywords:              [Peter Naylor, machine learning, deep-learning, histopath
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/imgs/website/me_sq.jpg
+logo:                  /assets/img/website/me_sq.jpg
 
 
 favicon: /assets/favicon/favicon.ico
@@ -68,12 +68,7 @@ menu:
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. All rights reserved.
@@ -98,7 +93,7 @@ remote_theme: hydecorp/hydejack@v9.0.0-rc.6
  
 # Sidebar image and theme color of the site.
 
-accent_image:          /assets/imgs/website/NightAndDay.jpg
+accent_image:          /assets/img/website/NightAndDay.jpg
 accent_color:          rgb(168, 86, 65)
 
 # This is used for the `theme-color` meta tag,
