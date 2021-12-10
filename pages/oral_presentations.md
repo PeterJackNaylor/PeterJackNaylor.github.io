@@ -8,7 +8,7 @@ permalink: /talks/
 
 # Talks
 Non exhaustive list of given talks and posters: 
-- Talk at RIKEN AIP.
+- Talk at RIKEN AIP, *Predicting from very large images: Application to treatment response in triple-negative breast cancer*.
 - Introduction to machine learning and image analysis, presentation to high school students at Lycée Les Feuillades, during *la semaine de la science*, presentation given in english with [slides](http://members.cbio.mines-paristech.fr/~pnaylor/talks/NaylorP_Montpellier_presentation.pdf) in french.
 - PhD defence, [slides](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/PNaylor_defence.pdf)
 - Invited speaker at an internal workshop on Deep learning at the Center of Mathematical Morphology lab, June 2019: slides. [slides](http://members.cbio.mines-paristech.fr/~pnaylor/talks/fontainebleau_DL_workshop_presentation.pdf)
