@@ -9,7 +9,7 @@ hide_last_modified: true
 
 I published my final PhD work entitled *Prediction of Treatment Response in Triple Negative Breast Cancer From Whole Slide Images* in Frontier in Biomedical Signal Processing. The bioarxiv version of the paper can be found on [bioarxiv](https://www.biorxiv.org/content/10.1101/2022.01.31.478433v1).
 
-# Data not available
+# Data
 The data used for the study is not available and is constituted of 336 biopsy samples scanned at the Institut Curie. 
 The paper is a natural extension of our [IBSI 2019 publication](/publications/2019-04-22-Isbi/) and biopsy sections undergoes the same treatment. As the data has been notable increased we give the new partition of labels: pCR (167), RCB-I (27), RCB-II (113) and RCB-III (29), and similarly we aim at predicting two task: (1) Prognostic pCR-RCB-I vs RCB-II-III and (2) Residual pCR vs RCB-I-II-III. 
 
