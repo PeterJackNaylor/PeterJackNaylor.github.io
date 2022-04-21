@@ -7,7 +7,7 @@ sitemap: false
 hide_last_modified: true
 ---
 
-I defended my PhD on the 18<sup>th</sup> of December 2019 at 2 pm in amphitheater Lacassagne, [slides](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/PNaylor_defence.pdf) and [manuscript](http://members.cbio.mines-paristech.fr/~pnaylor/Downloads/PhD_PeterNaylor.pdf).
+I defended my PhD on the 18<sup>th</sup> of December 2019 at 2 pm in amphitheater Lacassagne, [slides](https://drive.google.com/file/d/1KBlBn0aNchiR7BCailJHteIf203Cu11W/view?usp=sharing) and [manuscript](https://drive.google.com/file/d/1PZHAxEl8hL7qTnl5xXjenweTkO6pvOLe/view?usp=sharing).
 
 My PhD is entitled: *From cellular phenotypes to the analysis of whole slide images: Application to treatment response in triple-negative breast cancer* supervised by Thomas Walter and here is the first introductory slide discussing the title:
 
