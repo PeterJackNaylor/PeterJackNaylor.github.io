@@ -115,7 +115,7 @@ In addition:
 ## Compared models
 We recapitulate all test models in Table 1:
 
-![](/assets/img/posts/tnbc_treatment_prediction/used_model.png){:class="img-responsive"}
+![](/assets/img/posts/tnbc_treatment_prediction/used_model.png){:class="img-responsive"} \
 **Table 1**: *Model architecture and pooling strategy, as described. CHOWDER has been published previously (Courtiol et al., 2018).*
 ## Results 
 
