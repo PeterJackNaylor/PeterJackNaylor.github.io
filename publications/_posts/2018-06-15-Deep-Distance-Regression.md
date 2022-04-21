@@ -13,10 +13,10 @@ The paper 'Segmentation of Nuclei in Histopathology Images by deep regression of
 ## Data publicly available
 The data used for the study can be found [here](https://zenodo.org/record/1175282#.WyP61xy-l5E). 
 The code can be found [here](https://github.com/PeterJackNaylor/DRFNS).
-The results involving the comparaison of the different methods can be found [here](https://cloud.mines-paristech.fr/index.php/s/6JakOTrUdwj6uoe).
-
+The results involving the comparison of the different methods can be found [here](https://cloud.mines-paristech.fr/index.php/s/6JakOTrUdwj6uoe).
+The paper can be found [here](https://drive.google.com/file/d/18Vjsg9it0VKZIkcrGXl3XHjGaKNM5vUe/view?usp=sharing).
 ## Summary of the paper
-We focused on the problem of touching nuclei in histopathology images, i.e. instance segmentation applied to nuclei. We transform the standard classification problem into a regression problem. In other words, instead of predicting categorial variables we try to infer the distance between a given pixel and it's distance to the border, see figure 1. To recover the segmentation we apply a post-processing scheme that goes as follows: we join two maximum a posteriori of the distance map if and only if we can find a path that does not decrease of a certain size between them. This type of post-processing is ideally suited for the previous task. We believe that formulating the problem into a distance regression problem helps the model learn the concept of a cell better. Indead, the main difference with the standard classification arises in areas where the model is uncertain and will try to maximise per pixel probabilities. This situation does not arise with the distance regression and therefor creates nice and smooth segmentation results as one can see in figure 2 and 3. 
+We focused on the problem of touching nuclei in histopathology images, i.e. instance segmentation applied to nuclei. We transform the standard classification problem into a regression problem. In other words, instead of predicting categorical variables we try to infer the distance between a given pixel and it's distance to the border, see figure 1. To recover the segmentation we apply a post-processing scheme that goes as follows: we join two maximum a posteriori of the distance map if and only if we can find a path that does not decrease of a certain size between them. This type of post-processing is ideally suited for the previous task. We believe that formulating the problem into a distance regression problem helps the model learn the concept of a cell better. Indeed, the main difference with the standard classification arises in areas where the model is uncertain and will try to maximize per pixel probabilities. This situation does not arise with the distance regression and therefor creates nice and smooth segmentation results as one can see in figure 2 and 3. 
 
 
 
@@ -28,7 +28,7 @@ B is the space of binary files and Bd is the distance transform of the previous 
 **Figure 2**: *Comparaison of different methods, some examples*
 
 ![](/assets/img/posts/tmi_2018/BoxPlot.png){:class="img-responsive"}
-**Figure 3**: *Comparaison of different methods, boxplots*
+**Figure 3**: *Comparison of different methods, boxplots*
 
 **U-Net**: refers to the method in the paper: Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." *International Conference on Medical image computing and computer-assisted intervention. Springer, Cham, 2015*.
 

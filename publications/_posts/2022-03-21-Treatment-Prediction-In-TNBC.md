@@ -7,7 +7,7 @@ sitemap: false
 hide_last_modified: true
 ---
 
-I published my final PhD work entitled *Prediction of Treatment Response in Triple Negative Breast Cancer From Whole Slide Images* in Frontier in Biomedical Signal Processing. The bioarxiv version of the paper can be found on [bioarxiv](https://www.biorxiv.org/content/10.1101/2022.01.31.478433v1).
+I published my final PhD work entitled *Prediction of Treatment Response in Triple Negative Breast Cancer From Whole Slide Images* in Frontier in Biomedical Signal Processing. The preprint is available on [bioarxiv](https://www.biorxiv.org/content/10.1101/2022.01.31.478433v1), another version of the paper is available [here](https://drive.google.com/file/d/1mOxjFpp-muQm8kOn8a0kRyF3y3vOMGu8/view?usp=sharing).
 
 # Data
 The data used for the study is not available and is constituted of 336 biopsy samples scanned at the Institut Curie. 
