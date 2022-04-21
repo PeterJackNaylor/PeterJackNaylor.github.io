@@ -10,8 +10,7 @@ slug: publications
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+  Please find a description of the articles I have published. For more information I would recommend or reaching out to me or to check the original paper.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
