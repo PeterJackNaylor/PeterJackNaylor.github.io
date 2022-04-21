@@ -34,7 +34,7 @@ Prediction of treatment response is one of the most difficult tasks in digital p
 This task is currently unresolved for human physicians.
 Moreover, datasets with treatment response are usually much smaller than datasets acquired in clinical routine for tasks such as automatic grading, metastasis detection or subtype prediction.
 ![](/assets/img/posts/tnbc_treatment_prediction/digital_pathology_task.png){:class="img-responsive"}
-*Figure 1: Clinical applications of basic and advanced deep-learning image analysis in histopathology (Echle et al., 2021)*
+**Figure 1**: *Clinical applications of basic and advanced deep-learning image analysis in histopathology (Echle et al., 2021)*
 
 To the best of our knowledge, only one other paper discuss' the prediction of treatment response (other than my own publications) and report scores between 0.65 and 0.75 of AUC on a cohort which is twice the size of our own.
 To this end they combined the datasets from two hospitals and used federated learning methods.
@@ -48,13 +48,13 @@ We believe that this is due to the parameter search space being relatively flat 
 In Figure 2.A we show the inherent randomness found in DNN. 
 
 ![](/assets/img/posts/tnbc_treatment_prediction/simulation_results.png){:class="img-responsive"}
-*Figure 2: (A) Repeated training, with and without early stopping: (A) Performance Variance, as measured on an independently simulated test set, (B) Comparison of models trained with NCV, NECV and NBFCV. On the y-axis we have the difference in accuracy between the Naive Bayes model and a given validation approach. As the data distribution is known, the Naive Bayes is a theoretical upper limit of the achievable performance. Curves are shown with 95% conﬁdence intervals. A lower curve implies a better score.*
+**Figure 2**: *(A) Repeated training, with and without early stopping: (A) Performance Variance, as measured on an independently simulated test set, (B) Comparison of models trained with NCV, NECV and NBFCV. On the y-axis we have the difference in accuracy between the Naive Bayes model and a given validation approach. As the data distribution is known, the Naive Bayes is a theoretical upper limit of the achievable performance. Curves are shown with 95% conﬁdence intervals. A lower curve implies a better score.*
 
 This problem becomes more apparent when we wish to actually optimize the parameters in the DNN, a common tool is Nested Cross Validation (NCV).
 Currently, NCV can't use early stopping as the final model is retrained on the full dataset. The procedure is givin below:
 
 ![](/assets/img/posts/tnbc_treatment_prediction/NCV.png){:class="img-responsive"}
-*Algorithm 1: Nested Cross Validation.  $f^{cv}$ returns a model where we the best set of parameters are given with an inner cross validation and the returned model is trained with them on the whole given dataset. $\mathcal{F}^{ocv} denotes an outer fold with or without section $i$$.*
+**Algorithm 1**: *Nested Cross Validation.  $f^{cv}$ returns a model where we the best set of parameters are given with an inner cross validation and the returned model is trained with them on the whole given dataset. $\mathcal{F}^{ocv} denotes an outer fold with or without section $i$$.*
 
 The current procedure suffers from the for-mentioned issue, $f^{cv}$ re-trains the model once it has found the best set of hyper-parameters.
 We modify this procedure in order to return the ensemble of the models where the set of hyper-parameter maximises the inner-fold validation procedure and to make use of early stopping, we name this model Nested Ensemble Cross Validation (NECV).
@@ -67,7 +67,7 @@ In particular we denote by *NECV-x* the model that retains only the $x$ model th
 We use a toy dataset where we sample our samples with a standard deviation ($x$-axis in Figure 2) from two origin points.
 We use a simple NN which is actually the last module of the network we use for TNBC treatment prediction, see Figure 3.
 
-![](/assets/img/posts/tnbc_treatment_prediction/small_network.png){:class="img-responsive"}
+![](/assets/img/posts/tnbc_treatment_prediction/small_network.png){:class="img-responsive"} \
 **Figure 3**: *Simple two layer DNN for the simulation data.* 
 
 ## Results
