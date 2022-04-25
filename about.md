@@ -12,8 +12,14 @@ redirect_from:
 # About
 
 <!--author-->
+I am currently a post doctoral researcher looking to work on hot topic on which to apply my skills in computer vision.
 
-## Research activity
+I have specialized in the application of deep learning to biomedical data, particularly histopathology (massive 2D images) and cryoEM imaging (3D high resolution imaging).\
+I am very interest in applying my research to new fields and to cross different input modalities such as sound and gene expression data.
+
+Please do not hesitate to reach out. You can find my CV at the following [link](https://drive.google.com/file/d/1ONadCfoaSm8Tmv8fpADDyE_WH37itFNO/view?usp=sharing).
+ 
+## Past research activity descriptions
 
 
 My area of research is statistics, machine learning and computational biology. I have a particular interest for biological applications. My research has so far been mostly focused on applying modern data processing techniques to histopathology. Histopathology examines skin pieces seen through a very powerful microscope. Histopathology data can be very large (>60 GB per image) and are very complex to analyse due to the high variability in cell shape, type and staining. Our goal is to use histopathological data in order to discover biologically relevant information which is predictive of treatment responses.
