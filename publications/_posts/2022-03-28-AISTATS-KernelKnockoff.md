@@ -71,9 +71,9 @@ $FDR = \frac{n_s - n_p}{n_s} = \frac{ |\lbrace j \in \widehat{\mathcal{S}} \text
 
 Actually, as a large and positive $W_j$ is evidence of importance, we would like to find $T_{\alpha}$ to threshold $\widehat{\mathcal{S}} = \lbrace j: W_j > T_{\alpha}\rbrace$ in order to control the FDR.
 
-$$ T_{\alpha} = \text{min} \lbrace t>0; \frac{|j: W_j \leq -t|}{|j: W_j \geq t|} \leq \alpha \rbrace $$
+$$ T_{\alpha} = \text{min} \lbrace t>0; \frac{|\lbrace j: W_j \leq -t \rbrace |}{|\lbrace j: W_j \geq t \rbrace |} \leq \alpha \rbrace $$
 
-As under $\mathcal{H_0}$ we have $|j: W_j \leq -t| \approx |j: W_j \geq t|$
+As under $\mathcal{H_0}$ we have $\lbrace j: W_j \leq -t \rbrace \approx \lbrace j: W_j \geq t \rbrace$
 
 ### Knockoff in the low sample high dimensional setting
 
@@ -116,8 +116,9 @@ In order to be in the correct setting we split the data into $X_0$ and $X_1$. We
 We show theoretical bounds and convergences for a general kernel knockoff association measure as well as the sure screening properties.
 For a given kernel $\varphi$ that can be the linear, gaussian or distance we define the following association measures:
 
-- $HSIC(X,Y) = \frac{1}{n-1}\text{tr}(KHLH)$ where is the centring matrix $H = I_n - 1_n \textbf{1}\textbf{1}^T$ and $K_{ij} = \varphi(x_i, x_j)$ and $L_{ij} = \varphi(y_i, y_j)$
-- $cMMD$, conditional MMD: $cMMD(X,Y) = \mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)|Y,Y']-\mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)] = \overset{L}{\underset{l=1}{\sum}} \widehat{\pi}_l \frac{1}{n^2_l}\underset{i,j \in \mathcal{E}_l}{\sum}\varphi(X_{ik},X_{jk}) - \frac{1}{n^2}\overset{n}{\underset{i,j=1}{\sum}}\varphi(X_{ik},X_{jk})$. Where  $\mathcal{E}_= l\{i: Y_i = l\}$
+- $HSIC(X,Y) = \frac{1}{n-1}\text{tr}(KHLH)$ where is the centring matrix $H = I_n - \frac{1}{n} \mathbf{1}\mathbf{1}^T$ and $K_{ij} = \varphi(x_i, x_j)$ and $L_{ij} = \varphi(y_i, y_j)$
+
+- Conditional MMD: $cMMD(X,Y) = \mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)|Y,Y']-\mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)] = \overset{L}{\underset{l=1}{\sum}} \widehat{\pi}_l \frac{1}{n^2_l}\underset{i,j \in \mathcal{E}_l}{\sum}\varphi(X_{ik},X_{jk}) - \frac{1}{n^2}\overset{n}{\underset{i,j=1}{\sum}}\varphi(X_{ik},X_{jk})$. Where  $\mathcal{E}_= l\{i: Y_i = l\}$
 
 ### $W_j$ statistic
 
@@ -137,7 +138,7 @@ If unspecified, $\varepsilon \sim \mathcal{N}(0, c)$
 $\textbf{1.a : }  Y = \beta_0 . X_\mathcal{S} + \varepsilon, \text{ where } \beta_0 = (1, 2, 4, 8).$
 
 2. Non linear data:
-$\textbf{2.c : } Y \sim \mathcal{P}(\lambda), \text{ where } \mathcal{P} \text{ is the Poisson distribution where } \lambda = \exp\lbrace \mathbf{1}\mathbf{1}^T$ and $K_{ij} = \varphi(x_i, x_j)$ and *{10}.X*\mathcal{S} \rbrace.$
+$\textbf{2.c : } Y \sim \mathcal{P}(\lambda)$, where $\mathcal{P}$ is the Poisson distribution where $\lambda = \exp\lbrace \mathbf{1}\mathbf{1}^T$ and $K_{ij} = \varphi(x_i, x_j)$ and *{10}.X*\mathcal{S} \rbrace.$
 
 3. Categorical data: $\textbf{3.a : } Y= \textbf{1}\lbrace \text{logit}(\mathbf{1}_{10} . X_\mathcal{S} +  \varepsilon) > 0.5\rbrace$
 
