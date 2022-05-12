@@ -67,7 +67,7 @@ $$ T_{\alpha} = \text{min} \lbrace t>0; \frac{|j: W_j \leq -t|}{|j: W_j \geq t|}
 As under $\mathcal{H_0}$ we have $|j: W_j \leq -t| \approx |j: W_j \geq t|$
 
 ## Knockoff in the low sample high dimensional setting
-Two create the knockoff features two paradigms exits, the model-X paradigm and the fixed-X paradigm. We only explain the latter as the first relies on knowing the distribution X which is impractical in real case scenarios. 
+To create the knockoff features two paradigms exits, the model-X paradigm and the fixed-X paradigm. We only explain the latter as the first relies on knowing the distribution X which is impractical in real case scenarios. 
 In this paradigm two methods to create the variable exists, the equi-correlated and the SPD method.
 We explain the first as it is the one used in the paper.
 In addition a screening step is necessary when the data does not comply with $n \geq 2p$ and has to be reduced.
