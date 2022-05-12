@@ -138,9 +138,9 @@ If unspecified, $\varepsilon \sim \mathcal{N}(0, c)$
 $\textbf{1.a : }  Y = \beta_0 . X_\mathcal{S} + \varepsilon, \text{ where } \beta_0 = (1, 2, 4, 8).$
 
 2. Non linear data:
-$\textbf{2.c : } Y \sim \mathcal{P}(\lambda)$, where $\mathcal{P}$ is the Poisson distribution where $\lambda = \exp\lbrace \mathbf{1}\mathbf{1}^T$ and $K_{ij} = \varphi(x_i, x_j)$ and *{10}.X*\mathcal{S} \rbrace.$
+$\textbf{2.c : } Y \sim \mathcal{P}(\lambda)$, where $\mathcal{P}$ is the Poisson distribution where $\lambda = \exp\lbrace \underset{i=1..10}{\sum} X_i \rbrace$
 
-3. Categorical data: $\textbf{3.a : } Y= \textbf{1}\lbrace \text{logit}(\mathbf{1}_{10} . X_\mathcal{S} +  \varepsilon) > 0.5\rbrace$
+3. Categorical data: $\textbf{3.a : } Y= \textbf{1}\lbrace \text{logit}(\mathbf{1}_{10} . X_{\mathcal{S}} +  \varepsilon) > 0.5\rbrace$
 
 #### Real data
 
