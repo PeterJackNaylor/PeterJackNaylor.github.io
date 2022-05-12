@@ -118,9 +118,9 @@ For a given kernel $\varphi$ that can be the linear, gaussian or distance we def
 
 - $HSIC(X,Y) = \frac{1}{n-1}\text{tr}(KHLH)$ where is the centring matrix $H = I_n - \frac{1}{n} \mathbf{1}\mathbf{1}^T$ and $K_{ij} = \varphi(x_i, x_j)$ and $L_{ij} = \varphi(y_i, y_j)$
 
-- Conditional MMD: $cMMD(X,Y) = \mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)|Y,Y']-\mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)]$.
+- Conditional MMD: $cMMD(X,Y) = \mathbb{E}_{X_kX'_k}\lbrack\varphi(X_k,X'_k)|Y,Y'\rbrack-\mathbb{E}_{X_kX'_k}\lbrack\varphi(X_k,X'_k)\rbrack$.
 In practice, this simplifies to $cMMD(X,Y) = \overset{L}{\underset{l=1}{\sum}} \widehat{\pi}_l \frac{1}{n^2_l}\underset{i,j \in \mathcal{E}_l}{\sum}\varphi(X_{ik},X_{jk}) - \frac{1}{n^2}\overset{n}{\underset{i,j=1}{\sum}}\varphi(X_{ik},X_{jk})$.
-Where  $\mathcal{E}_= l\{i: Y_i = l\}$
+Where  $\mathcal{E}_l = \lbrace i: Y_i = l\rbrace$
 
 ### $W_j$ statistic
 
