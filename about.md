@@ -2,8 +2,7 @@
 layout: about
 image: /assets/img/blog/hydejack-9.jpg
 description: >
-  A boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+
 hide_description: true
 redirect_from:
   - /download/
@@ -11,7 +10,6 @@ redirect_from:
 
 # About
 
-<!--author-->
 I am currently a post doctoral researcher looking for real world applications to which apply my skills in computer vision.
 
 My main research interest concerns the development of statistical, machine learning and deep learning models for real world applications in computer vision. I am particularly interested in modelling complex, low sampled and high dimensional data. I have mostly applied my research to the bioimaging field and in particular to  large 2D images (>60GB when uncompressed), 3D imaging and video data. Applying my research to these goal oriented projects and tackling inherent difficulties in the data has led to me to build a keen interest in transfer learning and learning from imperfect and noisy data, which includes weakly supervised learning and self-supervised learning.
