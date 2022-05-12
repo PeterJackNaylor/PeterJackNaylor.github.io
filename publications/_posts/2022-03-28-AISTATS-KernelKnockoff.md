@@ -118,7 +118,9 @@ For a given kernel $\varphi$ that can be the linear, gaussian or distance we def
 
 - $HSIC(X,Y) = \frac{1}{n-1}\text{tr}(KHLH)$ where is the centring matrix $H = I_n - \frac{1}{n} \mathbf{1}\mathbf{1}^T$ and $K_{ij} = \varphi(x_i, x_j)$ and $L_{ij} = \varphi(y_i, y_j)$
 
-- Conditional MMD: $cMMD(X,Y) = \mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)|Y,Y']-\mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)] = \overset{L}{\underset{l=1}{\sum}} \widehat{\pi}_l \frac{1}{n^2_l}\underset{i,j \in \mathcal{E}_l}{\sum}\varphi(X_{ik},X_{jk}) - \frac{1}{n^2}\overset{n}{\underset{i,j=1}{\sum}}\varphi(X_{ik},X_{jk})$. Where  $\mathcal{E}_= l\{i: Y_i = l\}$
+- Conditional MMD: $cMMD(X,Y) = \mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)|Y,Y']-\mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)]$.
+In practice, this simplifies to $cMMD(X,Y) = \overset{L}{\underset{l=1}{\sum}} \widehat{\pi}_l \frac{1}{n^2_l}\underset{i,j \in \mathcal{E}_l}{\sum}\varphi(X_{ik},X_{jk}) - \frac{1}{n^2}\overset{n}{\underset{i,j=1}{\sum}}\varphi(X_{ik},X_{jk})$.
+Where  $\mathcal{E}_= l\{i: Y_i = l\}$
 
 ### $W_j$ statistic
 
@@ -138,7 +140,7 @@ If unspecified, $\varepsilon \sim \mathcal{N}(0, c)$
 $\textbf{1.a : }  Y = \beta_0 . X_\mathcal{S} + \varepsilon, \text{ where } \beta_0 = (1, 2, 4, 8).$
 
 2. Non linear data:
-$\textbf{2.c : } Y \sim \mathcal{P}(\lambda)$, where $\mathcal{P}$ is the Poisson distribution where $\lambda = \exp\lbrace \underset{i=1..10}{\sum} X_i \rbrace$
+$\textbf{2.c : } Y \sim \mathcal{P}(\lambda)$, where $\mathcal{P}$ is the Poisson distribution where $\lambda = \exp\lbrace \overset{10}{\underset{i=1}{\sum}} X_i \rbrace$
 
 3. Categorical data: $\textbf{3.a : } Y= \textbf{1}\lbrace \text{logit}(\mathbf{1}_{10} . X_{\mathcal{S}} +  \varepsilon) > 0.5\rbrace$
 
