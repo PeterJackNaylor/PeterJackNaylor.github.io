@@ -30,7 +30,7 @@ In other words, given a response variable and a large number of input variables 
 We denote by $X\in\mathbb{R}^{n\times p}$ the input data with $n$ samples and $p$ features and by $Y\in\mathcal{Y}^{n}$ the output or target prediction for $X$.
 
 We also denote the set $\mathcal{S}$ being the collection of covariates, with any loss of generality we assume there exists a function $f$ such that $f(X_{\mathcal{S}}) = Y$.
-In other words that the random variable $Y$ only depends on $X_S$: $Y | X_{\mathcal{S}} \perp \!\!\! \perp X_{\mathcal{S}^{\mathsf{c}}}$.
+In other words that the random variable $Y$ only depends on $X_S$: $Y | X_{\mathcal{S}} \perp X_{\mathcal{S}^{\mathsf{c}}}$ ($\perp$ means independence).
 
 ### FDR
 
@@ -53,7 +53,7 @@ For a feature $j$ we wish that the knockoff feature $\widetilde{X_j}$ holds the 
 
 1. $\forall k, k\neq j, \text{corr}(\widetilde{X_j}, \widetilde{X_k}) = \text{corr}(X_j, X_k)$
 2. $\forall k, k\neq j, \text{corr}(X_j, \widetilde{X_k}) = \text{corr}(X_j, X_k)$
-3. $\widetilde{X_j} \perp \!\!\! \perp Y$
+3. $\widetilde{X_j} \perp Y$ ($\perp$ means independence)
 
 ### Statistics
 
