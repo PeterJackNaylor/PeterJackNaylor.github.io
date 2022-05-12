@@ -142,7 +142,7 @@ $\textbf{1.a : }  Y = \beta_0 . X_\mathcal{S} + \varepsilon, \text{ where } \bet
 2. Non linear data:
 $\textbf{2.c : } Y \sim \mathcal{P}(\lambda)$, where $\mathcal{P}$ is the Poisson distribution where $\lambda = \exp\lbrace \overset{10}{\underset{i=1}{\sum}} X_i \rbrace$
 
-3. Categorical data: $\textbf{3.a : } Y= \textbf{1}\lbrace \text{logit}(\mathbf{1}_{10} . X_{\mathcal{S}} +  \varepsilon) > 0.5\rbrace$
+3. Categorical data: $\textbf{3.a : } Y= \textbf{1}\lbrace \text{logit}(\overset{10}{\underset{i=1}{\sum}} X_i +  \varepsilon) > 0.5\rbrace$
 
 #### Real data
 
