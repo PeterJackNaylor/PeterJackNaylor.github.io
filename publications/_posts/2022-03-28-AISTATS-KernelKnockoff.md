@@ -120,12 +120,12 @@ For a given kernel $\varphi$ that can be the linear, gaussian or distance we def
 
 $\lbrack$
 
-$$ cMMD(X,Y) = \mathbb{E}_{X_kX'_k}\lbrack \varphi(X_k, X_k')$$
+$$ cMMD(X,Y) = \mathbb{E}_{X_kX'_k}\lbrack \varphi(X_k, X_k') \sum$$
 
-- Conditional MMD: $ cMMD(X,Y) = \mathbb{E}_{X_kX'_k}\lbrack \varphi(X_k, X_k') | Y, Y' \rbrack - \mathbb{E}_{X_kX'_k} \lbrack \varphi(X_k, X'_k) \rbrack $.
+- Conditional MMD: $ cMMD(X,Y) = \mathbb{E}_{X_kX'_k}\lbrack \varphi(X_k, X_k') \lvert Y, Y' \rbrack - \mathbb{E}_{X_kX'_k} \lbrack \varphi(X_k, X'_k) \rbrack $.
 
 
-In practice, this simplifies to $cMMD(X,Y) = \overset{L}{\underset{l=1}{\sum}} \widehat{\pi}_l \frac{1}{n^2_l}\underset{i,j \in \mathcal{E}_l}{\sum}\varphi(X_{ik},X_{jk}) - \frac{1}{n^2}\overset{n}{\underset{i,j=1}{\sum}}\varphi(X_{ik},X_{jk})$.
+In practice, this simplifies to $cMMD(X,Y) = \overset{L}{\underset{l=1}{\Sigma}} \widehat{\pi}_l \frac{1}{n^2_l}\underset{i,j \in \mathcal{E}_l}{\Sigma}\varphi(X_{ik},X_{jk}) - \frac{1}{n^2}\overset{n}{\underset{i,j=1}{\Sigma}}\varphi(X_{ik},X_{jk})$.
 Where  $\mathcal{E}_l = \lbrace i: Y_i = l\rbrace$
 
 ### $W_j$ statistic
