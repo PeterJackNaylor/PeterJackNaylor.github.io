@@ -122,6 +122,13 @@ $\lbrack$
 
 $$ cMMD(X,Y) = \mathbb{E}_{X_kX'_k}\lbrack \varphi(X_k, X_k') \sum$$
 
+$$ cMMD(X,Y) = \mathbb{E}_{X_kX'_k}\lbrack \varphi(X_k, X_k')  \lvert Y, Y' \rbrack \sum$$
+
+
+$$ cMMD(X,Y) = \mathbb{E}_{X_kX'_k}\lbrack \varphi(X_k, X_k')   Y, Y' \rbrack \sum$$
+
+$$ \mathbb{E}_{X_kX'_k} \lbrack \varphi(X_k, X'_k) \rbrack $$
+
 - Conditional MMD: $ cMMD(X,Y) = \mathbb{E}_{X_kX'_k}\lbrack \varphi(X_k, X_k') \lvert Y, Y' \rbrack - \mathbb{E}_{X_kX'_k} \lbrack \varphi(X_k, X'_k) \rbrack $.
 
 
