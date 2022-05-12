@@ -115,8 +115,8 @@ In order to be in the correct setting we split the data into $X_0$ and $X_1$. We
 We show theoretical bounds and convergences for a general kernel knockoff association measure as well as the sure screening properties.
 For a given kernel $\varphi$ that can be the linear, gaussian or distance we define the following association measures:
 
-- $HSIC(X,Y) = \frac{1}{n-1}\text{tr}(KHLH)$ where is the centring matrix $H = I_n - 1_n \mathbf{1}\mathbf{1}^T$ and $K_{ij} = \varphi(x_i, x_j)$ and $L_{ij} = \varphi(y_i, y_j)$
-- $cMMD$, conditional MMD: $cMMD(X,Y) = \mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)|Y,Y']\big]\!-\!\mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)] = \overset{L}{\underset{l=1}{\sum}} \widehat{\pi}_l \frac{1}{n^2_l}\underset{i,j \in \mathcal{E}_l}{\sum}\varphi(X_{ik},X_{jk}) - \frac{1}{n^2}\overset{n}{\underset{i,j=1}{\sum}}\varphi(X_{ik},X_{jk})$. Where  $\mathcal{E}_= l\{i: Y_i = l\}$
+- $HSIC(X,Y) = \frac{1}{n-1}\text{tr}(KHLH)$ where is the centring matrix $H = I_n - 1_n \textbf{1}\textbf{1}^T$ and $K_{ij} = \varphi(x_i, x_j)$ and $L_{ij} = \varphi(y_i, y_j)$
+- $cMMD$, conditional MMD: $cMMD(X,Y) = \mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)|Y,Y']-\mathbb{E}_{X_kX'_k}[\varphi(X_k,X'_k)] = \overset{L}{\underset{l=1}{\sum}} \widehat{\pi}_l \frac{1}{n^2_l}\underset{i,j \in \mathcal{E}_l}{\sum}\varphi(X_{ik},X_{jk}) - \frac{1}{n^2}\overset{n}{\underset{i,j=1}{\sum}}\varphi(X_{ik},X_{jk})$. Where  $\mathcal{E}_= l\{i: Y_i = l\}$
 
 ### $W_j$ statistic
 
