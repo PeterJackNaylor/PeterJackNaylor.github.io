@@ -12,10 +12,11 @@ redirect_from:
 # About
 
 <!--author-->
-I am currently a post doctoral researcher looking to work on hot topic on which to apply my skills in computer vision.
+I am currently a post doctoral researcher looking for real world applications to which apply my skills in computer vision.
 
-I have specialized in the application of deep learning to biomedical data, particularly histopathology (massive 2D images) and cryoEM imaging (3D high resolution imaging).\
-I am very interest in applying my research to new fields and to cross different input modalities such as sound and gene expression data.
+My main research interest concerns the development of statistical, machine learning and deep learning models for real world applications in computer vision. I am particularly interested in modelling complex, low sampled and high dimensional data. I have mostly applied my research to the bioimaging field and in particular to  large 2D images (>60GB when uncompressed), 3D imaging and video data. Applying my research to these goal oriented projects and tackling inherent difficulties in the data has led to me to build a keen interest in transfer learning and learning from imperfect and noisy data, which includes weakly supervised learning and self-supervised learning.
+
+I am very interest in collaborating on bioimage related topics and also in applying my research to new fields and to cross different input modalities such as sound, satellite imaging and gene expression data.
 
 Please do not hesitate to reach out. You can find my CV at the following [link](https://drive.google.com/file/d/1ONadCfoaSm8Tmv8fpADDyE_WH37itFNO/view?usp=sharing).
  
