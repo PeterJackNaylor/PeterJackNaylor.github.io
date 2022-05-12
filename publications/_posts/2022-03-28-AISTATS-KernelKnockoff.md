@@ -67,11 +67,12 @@ Under the hypothesis $\mathcal{H_0}$, the feature $X_j$ is unimportant to $Y$, $
 With knockoff we wish to control the FDR, the FDR can be estimate in the following manner, we denote by $\widehat{\mathcal{S}}$ the selected set.
 
 We start from the FDR formulation given in the notation section and rewrite it:
-$FDR = \frac{n_s - n_p}{n_s} = \frac{ |\lbrace j \in \widehat{\mathcal{S}} \text{ and } X_j \perp \!\!\! \perp Y \rbrace|}{|\widehat{\mathcal{S}}|}$
+$FDR = \frac{n_s - n_p}{n_s} = \frac{ |\lbrace j \in \widehat{\mathcal{S}} \text{ and } X_j \perp  Y \rbrace|}{|\widehat{\mathcal{S}}|}$
 
 Actually, as a large and positive $W_j$ is evidence of importance, we would like to find $T_{\alpha}$ to threshold $\widehat{\mathcal{S}} = \lbrace j: W_j > T_{\alpha}\rbrace$ in order to control the FDR.
 
 $$ T_{\alpha} = \text{min} \lbrace t>0; \frac{|j: W_j \leq -t|}{|j: W_j \geq t|} \leq \alpha \rbrace $$
+
 As under $\mathcal{H_0}$ we have $|j: W_j \leq -t| \approx |j: W_j \geq t|$
 
 ### Knockoff in the low sample high dimensional setting
