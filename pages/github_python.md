@@ -5,10 +5,11 @@ title: GitHub Repositories and Python packages
 description: >
    Here is a non exhausted list of informatics projects I have contributed to:
 ---
+- [ScaleDependentCNN](https://github.com/PeterJackNaylor/ScaleDependentCNN), Scale Dependent Convolutional layer for feature extraction of nuclei in histopathology data. The code for the pipeline is written in Nextflow and the processes use python.
 - [Galore](https://github.com/hclimente/galore), Graphical models applied to gene-expression data. Main author is [Hector Climente-Gonzalez](https://hclimente.eu/) (on going).
 - [Knockoff-MMD-HSIC](https://github.com/PeterJackNaylor/knockoff-MMD-HSIC), python package and reproducible code linked to a submitted paper. Code co-developed with [Hector Climente-Gonzalez](https://hclimente.eu/) (01/11/2021)
 - [NucSeg](https://github.com/PeterJackNaylor/NucSeg): Nextflow pipeline to train a nuclei segmentation network with all available nuclei segmentation datasets (at the time) with model such as ResNet on steroids and so on. (01/09/2021)
-- [The dart Application](https://github.com/PeterJackNaylor/dart-app) which is a flask/dash website for custom dart games hosted on our family Raspberry Pi. Project developed with my Bruno Naylor (26/06/2021).
+- [The dart Application](https://github.com/PeterJackNaylor/dart-app) which is a flask/dash website for custom dart games hosted on our family Raspberry Pi. Project developed with Bruno Naylor (26/06/2021).
 - [PhD_template](https://github.com/PeterJackNaylor/my_phd_template): Template used for my dissertation (17/12/2019).
 - [Cellular heatmap generation and classification](https://github.com/PeterJackNaylor/CellularHeatmaps): A project based on the segmentation of nuclei in histology images, from the segmentation we extract a certain number of features, perform an unsupervised dimension reduction on the nuclei sets, transform this extraction to the tissue in order to generate cellular heatmaps, and finally a supervised model for the classification of these heatmaps (12/11/2019) (on going).
 - [AutomaticWSI](https://github.com/PeterJackNaylor/AutomaticWSI): The prediction of residual cancer burden from histological TNBC biopsy sections prior to treatment, the code contains a full pipeline to analyze Whole Slide Images automatically (8/12/2019) (on going).

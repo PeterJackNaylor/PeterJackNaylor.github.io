@@ -7,4 +7,5 @@ description: >
 ---
 
 - Whole Slide Imaging tissue segmentation database [link](https://drive.google.com/file/d/1pcb1KtEyHkFSFoIhWQUMFO4FdImCO5xL/view?usp=sharing).
-- Nuclei segmentation database [zenodo link](https://zenodo.org/record/1174343#.YXZhkJuxVGN).
+- Nuclei segmentation database (TNBC dataset) [zenodo link](https://zenodo.org/record/1175282).
+- Extension, nuclei classification in the TNBC dataset [zenodo link](https://zenodo.org/record/3552674).
