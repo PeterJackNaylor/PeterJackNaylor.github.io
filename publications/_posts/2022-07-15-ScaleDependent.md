@@ -2,7 +2,7 @@
 layout: post
 title: Scale Dependent Convolution layer
 description: >
-    Dealing with 
+    Dealing with scale with parametrized dilated convolution
 sitemap: false
 hide_last_modified: true
 ---
