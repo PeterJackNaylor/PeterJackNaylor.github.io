@@ -10,6 +10,7 @@ permalink: /talks/
 
 Non exhaustive list of given talks and posters:
 
+- Talk at the Mini-workshop at RIKEN AIP organized by Prof. Makoto Yamada, *Scale dependant convolution for nuclei encoding in histopathology images* on July 26th. [slides](https://drive.google.com/file/d/1YN7YsOhVhh3nzX_o_hR1K4nMRGZ2Q7f4/view?usp=sharing).
 - Talk at RIKEN AIP, *Predicting from very large images: Application to treatment response in triple-negative breast cancer* in November 2020, [slides](https://drive.google.com/file/d/1yE9QBGPjiuTJUZ3VynHTilyxX2uLeRT7/view?usp=sharing).
 - Introduction to machine learning and image analysis, presentation to high school students at Lycée Les Feuillades, during *la semaine de la science*, presentation given in english with [slides](https://drive.google.com/file/d/15IHB_r7n4oHL89OZlLoIhjjElLR8-Amw/view?usp=sharing) in french, April 2020.
 - PhD defence, [slides](https://drive.google.com/file/d/1KBlBn0aNchiR7BCailJHteIf203Cu11W/view?usp=sharing)
