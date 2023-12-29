@@ -10,6 +10,10 @@ permalink: /talks/
 
 Non exhaustive list of given talks and posters:
 
+- Accepted paper at WACV 2024 4-8 January in Hawai. Video presentation and poster presentation of: .
+- Invited speaker at the [Workshop on Machine Learning Applied to LiDAR Data for Cultural Heritage](https://www.linkedin.com/feed/update/urn:li:activity:7138230944301244417/) by the Centre for Cultural Heritage Technology (CCHT_Venice) organised by Dr. Marco Fiorucci, December 6th 2023. [slides](https://drive.google.com/file/d/1Tmbb8MuBTJRs3u08O6G5CM06yOc6aiFK/view?usp=sharing)
+- Accepted [paper](https://drive.google.com/file/d/1XZYC2Nw-tyE-P-NvhP1zcxO1KNQCmkd8/view?usp=sharing) at [BiDS 2023](https://www.bigdatafromspace2023.org/) and [poster](https://drive.google.com/file/d/1c5Z0I43w0YyxSgqKZyN6xscTVsRXQL3v/view?usp=sharing) presentation 6 to 9th of November 2023.
+- Internal workshop paper presented at RIKEN AIP .
 - Talk at the Mini-workshop at RIKEN AIP organized by Prof. Makoto Yamada, *Scale dependant convolution for nuclei encoding in histopathology images* on July 26th. [slides](https://drive.google.com/file/d/1YN7YsOhVhh3nzX_o_hR1K4nMRGZ2Q7f4/view?usp=sharing).
 - Talk at RIKEN AIP, *Predicting from very large images: Application to treatment response in triple-negative breast cancer* in November 2020, [slides](https://drive.google.com/file/d/1yE9QBGPjiuTJUZ3VynHTilyxX2uLeRT7/view?usp=sharing).
 - Introduction to machine learning and image analysis, presentation to high school students at Lycée Les Feuillades, during *la semaine de la science*, presentation given in english with [slides](https://drive.google.com/file/d/15IHB_r7n4oHL89OZlLoIhjjElLR8-Amw/view?usp=sharing) in french, April 2020.
