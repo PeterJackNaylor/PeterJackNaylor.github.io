@@ -9,10 +9,10 @@ permalink: /talks/
 ## Talks
 
 Non exhaustive list of given talks and posters:
-
+- Invited presenter at ESA’s new HPC opening ceremony in March 2025, the event hosted numerous VIPs from within ESA and outside. I presented an application use case in the climate change field, highlighting the
+computational needs for the EOP-S directorate. [slides](https://docs.google.com/presentation/d/1jH9hwDTtyLgzAaCyTB068qDQtnNWZrMF/edit?usp=sharing&ouid=107896728987245612980&rtpof=true&sd=true).
 - Accepted [paper](https://arxiv.org/pdf/2307.15428v2.pdf) at WACV 2024 4-8 January in Hawai. [Video presentation](https://drive.google.com/file/d/1WZ-WjKtfZl4VUiFQXBzkfKPx5dz5m_nR/view?usp=sharing) and [poster](https://drive.google.com/file/d/1E_ZH93Tqon1ZPMzWLvBUCE9vKSnspwIJ/view?usp=sharing) presentation.
 - Invited speaker at the [Workshop on Machine Learning Applied to LiDAR Data for Cultural Heritage](https://www.linkedin.com/feed/update/urn:li:activity:7138230944301244417/) by the Centre for Cultural Heritage Technology (CCHT_Venice) organised by Dr. Marco Fiorucci, December 6th 2023. [slides](https://drive.google.com/file/d/1Tmbb8MuBTJRs3u08O6G5CM06yOc6aiFK/view?usp=sharing)
-- Accepted [paper](https://drive.google.com/file/d/1XZYC2Nw-tyE-P-NvhP1zcxO1KNQCmkd8/view?usp=sharing) at [BiDS 2023](https://www.bigdatafromspace2023.org/) and [poster](https://drive.google.com/file/d/1c5Z0I43w0YyxSgqKZyN6xscTVsRXQL3v/view?usp=sharing) presentation 6 to 9th of November 2023.
 - [Internal RIKEN AIP & PRAIRIE workshop](https://aip.riken.jp/news/20230320_workshop_prairie_rev1/), presentation of the paper *Implicit Neural Representation for Change Detection* with [poster](https://drive.google.com/file/d/1E_ZH93Tqon1ZPMzWLvBUCE9vKSnspwIJ/view?usp=sharing) on the 20 and 21st of March.
 - Talk at the Mini-workshop at RIKEN AIP organized by Prof. Makoto Yamada, *Scale dependant convolution for nuclei encoding in histopathology images* on July 26th. [slides](https://drive.google.com/file/d/1YN7YsOhVhh3nzX_o_hR1K4nMRGZ2Q7f4/view?usp=sharing).
 - Talk at RIKEN AIP, *Predicting from very large images: Application to treatment response in triple-negative breast cancer* in November 2020, [slides](https://drive.google.com/file/d/1yE9QBGPjiuTJUZ3VynHTilyxX2uLeRT7/view?usp=sharing).
@@ -27,7 +27,9 @@ Non exhaustive list of given talks and posters:
 - Invited speaker at an internal seminar on Deep learning at the Center of Mathematical Morphology lab, January 2017: [slides](https://drive.google.com/file/d/1yPS5BR9vmSDBg0cB9ACu8PmUzSeLcTkj/view?usp=sharing).
 
 ## Posters
-
+- Poster presentation at EGU 2025 [poster](https://drive.google.com/file/d/1hcHaLGmgoL8_tSq9iIkKaSCXOcOHa0rB/view?usp=sharing).
+- Poster presentation at ESA Digital Twin Earth Components 2025 workshop [poster](https://drive.google.com/file/d/1dOhMKUClyztVPTElAhuc3JlP3_fSo061/view?usp=sharing).
+- Accepted [paper](https://drive.google.com/file/d/1XZYC2Nw-tyE-P-NvhP1zcxO1KNQCmkd8/view?usp=sharing) at [BiDS 2023](https://www.bigdatafromspace2023.org/) and [poster](https://drive.google.com/file/d/1c5Z0I43w0YyxSgqKZyN6xscTVsRXQL3v/view?usp=sharing) presentation 6 to 9th of November 2023.
 - Conference poster at [*AISTATS 2022,  25th International Conference on Artificial Intelligence and Statistics*](http://aistats.org/aistats2022/), by Benjamin Poignard, Peter Naylor , Hector Climente-González and Makoto Yamada: [poster](https://drive.google.com/file/d/1zEtPHNcjajhOnCsc5boXSq9IPWvsh7Ja/view?usp=sharing) and [paper](https://proceedings.mlr.press/v151/poignard22a.html).
 - Conference poster at [*International Symposium on Biomedical Imaging (ISBI’19)*](https://biomedicalimaging.org/2019/), *Venice, Italy*, by Peter Naylor, Joseph Boyd, Marick Laé, Fabien Reyal and Thomas Walter, April 2019: [poster](https://drive.google.com/file/d/1cu1xeMg14JGkYXFGrqPav65RT4VVKcMZ/view?usp=sharing), [slides](https://drive.google.com/file/d/1KEHqz4SslwksHuFlsQQgEpLNUvaKLPci/view?usp=sharing) and [paper](https://drive.google.com/file/d/1e9X68QYb3Jc7kIvzCxd2i69WHvhQ37Wa/view?usp=sharing)
 - Best poster award at DS3 [Data Science Summer School](http://www.ds3-datascience-polytechnique.fr), August 2017: [poster](https://drive.google.com/file/d/1QH-zarIaape4t35uUcA3uj11VZG7d106/view?usp=sharing).
