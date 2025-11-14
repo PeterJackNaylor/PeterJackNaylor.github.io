@@ -10,7 +10,7 @@ redirect_from:
 
 # About
 <!--author-->
-You can find my CV at the following [link](https://drive.google.com/file/d/1IpsglNF1l9WRW1wDvF-m6evUV89Ni6qz/view?usp=sharing).
+You can find my CV at the following [link](https://drive.google.com/file/d/1a8JKx3YsSqn0lOSojYPOrBu2fs_sTGR0/view?usp=sharing).
 
 ## Past research activity descriptions
 
