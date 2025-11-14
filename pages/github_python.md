@@ -5,6 +5,10 @@ title: GitHub Repositories and Python packages
 description: >
    Here is a non exhausted list of informatics projects I have contributed to:
 ---
+- [ISRIN](https://github.com/PeterJackNaylor/IceSheetReconstruction), Code to reproduce the work in *Implicit Neural Representation for Ice Sheet Surface Elevation Reconstruction* by Peter Naylor, Andreas Stokholm, Natalia Havelund Andersen, Nikolaos Dionelis, Quentin Paletta, Sebastian Bjerregaard Simonsen.
+- [SmRMR](https://github.com/PeterJackNaylor/SmRMR), Code to reproduce the results of the paper Sparse minimum Redundancy Maximum Relevance for feature selection by Peter Naylor, Benjamin Poignard, Hector Climente-Gonzales and Makoto Yamada. Implements a Sparse Minimum Redundancy Maximum Relevance that can be used in the style of scikit-learn. Writen in Jax.
+- [INR4torch](https://github.com/PeterJackNaylor/INR4torch), python package and in development. Basically a toolkit for using Implicit Neural Representation and Physics Informed Neural Networks with Python.
+- [NN-4-CD](https://github.com/PeterJackNaylor/NN-4-change-detection), code to reproduce the work *Implicit neural representation for change detection* by P. Naylor, D. Di Carlo, A. Traviglia, M. Yamada and M. Fiorucci. 
 - [ScaleDependentCNN](https://github.com/PeterJackNaylor/ScaleDependentCNN), Scale Dependent Convolutional layer for feature extraction of nuclei in histopathology data. The code for the pipeline is written in Nextflow and the processes use python.
 - [Galore](https://github.com/hclimente/galore), Graphical models applied to gene-expression data. Main author is [Hector Climente-Gonzalez](https://hclimente.eu/) (on going).
 - [Knockoff-MMD-HSIC](https://github.com/PeterJackNaylor/knockoff-MMD-HSIC), python package and reproducible code linked to a submitted paper. Code co-developed with [Hector Climente-Gonzalez](https://hclimente.eu/) (01/11/2021)

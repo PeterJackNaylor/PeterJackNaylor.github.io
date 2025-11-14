@@ -9,7 +9,6 @@ permalink: /talks/
 ## Talks
 
 Non exhaustive list of given talks and posters:
-- REO (Representation Learning for Earth Observation) workshop at Eurips 2025, December, poster presentation [Altimeter and velocity data fusion for enhanced spatiotemporal resolution of the Ice Sheet elevation](https://drive.google.com/file/d/1nfmeqBRnSYMjeqsldrkAEBWbrnSa1pFG/view?usp=sharing).
 - Living Planet Symposium 2025, June, oral presentation [ISRIN: Ice Sheet Reconstruction with Implicit Neural representation](https://docs.google.com/presentation/d/1tLcMsoVNSkbwufaRNRwte7Q0Np0qbC7Y/edit?usp=sharing&rtpof=true&sd=true).
 - European Geoscience Union 2025, April,  [Temporal Evolution of the Petermann Glacier Surface Elevation with Implicit Neural Representation in High Spatiotemporal Resolution using CryoSat-2 Data](https://drive.google.com/file/d/1Tmbb8MuBTJRs3u08O6G5CM06yOc6aiFK/view).
 - Invited presenter at ESA’s new HPC opening ceremony in March 2025, the event hosted numerous VIPs from within ESA and outside. I presented an application use case in the climate change field, highlighting the
@@ -31,7 +30,8 @@ computational needs for the EOP-S directorate. [slides](https://docs.google.com/
 - Invited speaker at an internal seminar on Deep learning at the Center of Mathematical Morphology lab, January 2017: [slides](https://drive.google.com/file/d/1yPS5BR9vmSDBg0cB9ACu8PmUzSeLcTkj/view?usp=sharing).
 
 ## Posters
-- Poster presentation at EGU 2025 [poster](https://drive.google.com/file/d/1hcHaLGmgoL8_tSq9iIkKaSCXOcOHa0rB/view?usp=sharing).
+- REO (Representation Learning for Earth Observation) workshop at Eurips 2025, December, *Altimeter and velocity data fusion for enhanced spatiotemporal resolution of the Ice Sheet elevation*  [poster](https://drive.google.com/file/d/1nfmeqBRnSYMjeqsldrkAEBWbrnSa1pFG/view?usp=sharing) presentation.
+- Poster presentation at EGU 2025, *Temporal Evolution of the Petermann Glacier Surface Elevation with Implicit Neural Representation in High Spatiotemporal Resolution using CryoSat-2 Data* [poster](https://drive.google.com/file/d/1hcHaLGmgoL8_tSq9iIkKaSCXOcOHa0rB/view?usp=sharing).
 - Poster presentation at ESA Digital Twin Earth Components 2025 workshop [poster](https://drive.google.com/file/d/1dOhMKUClyztVPTElAhuc3JlP3_fSo061/view?usp=sharing).
 - Accepted [paper](https://drive.google.com/file/d/1XZYC2Nw-tyE-P-NvhP1zcxO1KNQCmkd8/view?usp=sharing) at [BiDS 2023](https://www.bigdatafromspace2023.org/) and [poster](https://drive.google.com/file/d/1c5Z0I43w0YyxSgqKZyN6xscTVsRXQL3v/view?usp=sharing) presentation 6 to 9th of November 2023.
 - Conference poster at [*AISTATS 2022,  25th International Conference on Artificial Intelligence and Statistics*](http://aistats.org/aistats2022/), by Benjamin Poignard, Peter Naylor , Hector Climente-González and Makoto Yamada: [poster](https://drive.google.com/file/d/1zEtPHNcjajhOnCsc5boXSq9IPWvsh7Ja/view?usp=sharing) and [paper](https://proceedings.mlr.press/v151/poignard22a.html).
